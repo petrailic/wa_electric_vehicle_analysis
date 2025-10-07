@@ -11,26 +11,18 @@ Washington Technology Solutions (WaTech) provides data on Battery Electric Vehic
 Data file provided: Electric_Vehicle_Population_Data.csv
 
 ## Folder Structure
-
+```
 .
-
 ├── code
-
 │   └── analysis.py
-
 ├── data
-
 │   └── Electric_Vehicle_Population_Data.csv
-
+├── result
+│   └── top_wa_vehicle_makes.png
 ├── environment.yml
-
 ├── LICENSE
-
-├── README.md
-
-└── result
-
-    └── top_wa_vehicle_makes.png
+└── README.md
+```
 
 ## Getting Started
 
@@ -48,6 +40,6 @@ conda activate myenv_wav
 * **pandas** - data manipulation and analysis
 * **matplotlib** - plotting and visualization
 
-
+The analysis can be run with `python code/analysis.py` in the root directory, which produces a bar chart of the most popular electric vehicle makes in Washington and saves the chart to the result folder upon its closing.
 
 
