@@ -1,0 +1,7 @@
+name: myenv_wav
+channels:
+  - defaults
+dependencies:
+  - python=3.13.5
+  - pandas=2.3.2
+  - matplotlib=3.10.6
