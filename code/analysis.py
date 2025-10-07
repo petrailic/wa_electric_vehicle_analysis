@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read in data from data directory
-df = pd.read_csv("../data/Electric_Vehicle_Population_Data.csv")
+df = pd.read_csv("data/Electric_Vehicle_Population_Data.csv")
 
 # Count instances of each model type
 make_counts = df['Make'].value_counts()
@@ -19,6 +19,6 @@ plt.show()
 
 # Save plot to data directory
 fig = plot.get_figure()
-fig.savefig('../result/top_wa_vehicle_makes.png', dpi=300, bbox_inches='tight')
+fig.savefig('result/top_wa_vehicle_makes.png', dpi=300, bbox_inches='tight')
 
 print("Bar Chart Saved to data Directory")
